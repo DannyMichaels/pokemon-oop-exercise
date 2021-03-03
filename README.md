@@ -1,1 +1,1 @@
-# ruby-pokemon-oop-exercise
+# pokemon-oop-exercise
