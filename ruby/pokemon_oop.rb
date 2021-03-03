@@ -57,10 +57,12 @@ class Battle
 
       self.turn += 1
     end
+    finish #calling finish method
   end
 
   def finish
-
+    winner = self.pokemon1.hp <= 0 ? self.pokemon2 : self.pokemon1
+    puts "The vattle is over. #{winner.name} wins!"
   end
 end
 
@@ -134,3 +136,6 @@ end
 
 pikachu = Pokemon.new('Pikachu', 'Electric', 9)
 lapras = Pokemon.new('Lapras', 'Water', 7)
+
+battle = Battle.new(pikachu, larpas)
+battle.start
