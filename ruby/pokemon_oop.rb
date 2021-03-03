@@ -46,7 +46,7 @@ class Battle
       puts "-------------------------"
       
       puts "Fight"
-        pokmeon1.attack(pokemon2)
+        pokemon1.attack(pokemon2)
         pokemon2.attack(pokemon1)
 
       puts "----------------------"
@@ -56,6 +56,8 @@ class Battle
       puts "#{pokemon1.name}: #{pokemon1.hp} HP"
 
       self.turn += 1
+       puts #creating extra space in terminal with puts like this
+       puts
     end
     finish #calling finish method
   end
@@ -137,5 +139,5 @@ end
 pikachu = Pokemon.new('Pikachu', 'Electric', 9)
 lapras = Pokemon.new('Lapras', 'Water', 7)
 
-battle = Battle.new(pikachu, larpas)
+battle = Battle.new(pikachu, lapras)
 battle.start
