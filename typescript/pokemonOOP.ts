@@ -119,9 +119,9 @@ class IPokemon {
   }
 }
 
-let pikachuPokemon = new Pokemon('Pikachu', 'Electric', 9);
-let laprasPokemon = new Pokemon('Lapras', 'Water', 7);
+let pikachuPokemon = new IPokemon('Pikachu', 'Electric', 9);
+let laprasPokemon = new IPokemon('Lapras', 'Water', 7);
 
-let pokeBattle = new Battle(pikachuPokemon, laprasPokemon);
+let pokeBattle = new PokemonBattle(pikachuPokemon, laprasPokemon);
 
 pokeBattle.start();
