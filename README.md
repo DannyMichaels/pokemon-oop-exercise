@@ -1,7 +1,8 @@
-# pokemon-oop-exercise
+# Pokémon OOP Exercise
 
  Create a quick Pokémon game where 2 pokemons fight against each other. For This we need to:
 
+![fight](https://thumbs.gfycat.com/BoilingFrankIbizanhound-small.gif)
 
 # CREATE A POKÉMON CLASS
 
