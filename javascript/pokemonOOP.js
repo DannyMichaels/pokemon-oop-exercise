@@ -91,11 +91,7 @@ class Pokemon {
   }
 
   isAlive() {
-    if (this.hp > 0) {
-      return true;
-    } else {
-      return false;
-    }
+    return this.hp > 0;
   }
 
   missAttack() {
