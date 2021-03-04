@@ -22,7 +22,7 @@
 // 3. Output the winner.
 
 class Battle {
-  constructor(pokemon1, pokemon2, turn) {
+  constructor(pokemon1, pokemon2, turn = 1) {
     this.pokemon1 = pokemon1;
     this.pokemon2 = pokemon2;
     this.turn = turn;
@@ -68,16 +68,16 @@ class Battle {
   }
 }
 class Pokemon {
-  constructor(name, type, strength, hp) {
+  constructor(name, type, strength, hp = 100) {
     this.name = name;
     this.type = type;
     this.strength = strength;
-    hp = 100;
+    this.hp = hp;
   }
 
   attack(pokemon) {
     if (this.isFainting()) {
-      self.hp = 0;
+      this.hp = 0;
       return null;
     }
 
@@ -109,6 +109,7 @@ class Pokemon {
   }
 
   criticalHit() {
+    let range = Math.floor(Math.random() * 100) + 1;
     if (range <= 7) {
       console.log(`${this.name} lands a critical hit`);
       return true;
