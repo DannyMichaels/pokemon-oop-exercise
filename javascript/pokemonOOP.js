@@ -106,6 +106,7 @@ class Pokemon {
 
   criticalHit() {
     let range = Math.floor(Math.random() * 100) + 1;
+    
     if (range <= 7) {
       console.log(`${this.name} lands a critical hit`);
       return true;
@@ -125,6 +126,6 @@ class Pokemon {
 let pikachu = new Pokemon('Pikachu', 'Electric', 9);
 let lapras = new Pokemon('Lapras', 'Water', 7);
 
-battle = new Battle(pikachu, lapras);
+let battle = new Battle(pikachu, lapras);
 
 battle.start();
