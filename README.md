@@ -1,8 +1,8 @@
 # Pokémon OOP Exercise
 
- Create a quick Pokémon game where 2 pokemons fight against each other. For This we need to:
+ ![fight](https://thumbs.gfycat.com/BoilingFrankIbizanhound-small.gif)
 
-![fight](https://thumbs.gfycat.com/BoilingFrankIbizanhound-small.gif)
+ Create a quick Pokémon game where 2 pokemons fight against each other. For This we need to:
 
 # CREATE A POKÉMON CLASS
 
