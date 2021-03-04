@@ -100,10 +100,11 @@ class Pokemon
   end
 
   def is_alive? 
-    if self.hp > 0 
+    if self.hp > 0  # if truthy thing, return true...
       return true
     else 
-      return false
+      return false # else if not true, return false.
+      # kinda redundant right? check the isAlive() method in the javascript version.
     end
   end
 
