@@ -59,7 +59,7 @@ class Battle {
       console.log(' ');
       console.log(' ');
     }
-    // this.finish()
+    this.finish();
   }
 
   finish() {
