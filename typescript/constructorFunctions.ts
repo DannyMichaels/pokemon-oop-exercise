@@ -57,6 +57,9 @@ interface TPokemon {
   isAlive(): boolean;
   isFainting(): boolean;
   attack(...args: TPokemon[]): void;
+  missAttack(): boolean;
+  criticalHit(): boolean;
+  isFainting(): boolean;
 }
 
 function Pokemon(name: string, type: string, strength: number, hp = 100) {
