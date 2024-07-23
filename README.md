@@ -1,6 +1,6 @@
 # Pokémon OOP Exercise
 
- ![fight](https://thumbs.gfycat.com/BoilingFrankIbizanhound-small.gif)
+ ![fight](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwebdevstudios.com%2Fwp-content%2Fuploads%2F2019%2F08%2Fpikachu_attack.gif&f=1&nofb=1&ipt=beb1c3319b3c0505df49e5a52f0390bfaf6c8cd4f5b66c028dff7e5e646a1355&ipo=images)
 
  Create a quick Pokémon game where 2 pokemons fight against each other. For This we need to:
 
